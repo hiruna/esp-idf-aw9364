@@ -57,7 +57,6 @@ static esp_err_t set_brightness(aw9364_dev_t *dev, uint32_t duty_cycle, uint32_t
     return ESP_OK;
 }
 
-
 esp_err_t aw9364_init(const ledc_channel_config_t *ledc_channel_cfg, const ledc_timer_config_t *ledc_timer_cfg, aw9364_dev_t **out_hdl) {
     esp_err_t err = ESP_FAIL;
     if (ledc_channel_cfg == NULL || ledc_timer_cfg == NULL) {
@@ -146,7 +145,6 @@ uint8_t aw9364_get_brightness_step(aw9364_dev_t *dev) {
     }
     return dev->brightness_step;
 }
-
 
 esp_err_t aw9364_deinit(aw9364_dev_t *dev) {
     if(dev) {

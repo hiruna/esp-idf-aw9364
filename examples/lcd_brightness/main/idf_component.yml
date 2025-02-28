@@ -4,5 +4,5 @@ dependencies:
     version: ">=5.3.0"
   hiruna/esp-idf-aw9364:
     # git: https://github.com/hiruna/esp-idf-aw9364.git
-    # version: dev
+    # version: main
     override_path: '../../../'

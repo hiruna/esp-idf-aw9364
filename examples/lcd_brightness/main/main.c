@@ -7,6 +7,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "aw9364.h"
+
 const char *TAG = "lcd_brightness";
 
 #define LCD_PIN_NUM_BK_LIGHT    38
